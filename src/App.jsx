@@ -39,9 +39,9 @@ function App() {
 
   const education = [
     {
-      role: "Ingeniería en Computación",
-      company: "Universidad",
-      period: "En curso",
+      role: "Ingeniería en informatica",
+      company: "Universidad Politécnica Territorial de Valencia",
+      period: "Carga académica en pausa",
       tasks: [
         "Desarrollo de lógica de programación y algoritmos.",
         "Especialización autónoma en desarrollo web frontend (React, CSS) y backend (PHP)."

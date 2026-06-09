@@ -27,7 +27,7 @@ export default function ExperienceCard({ role, company, period, tasks }) {
             {period}
           </span>
         </div>
-        <p className="text-slate-400 text-sm font-medium">{company}</p>
+        <p className="bg-gradient-to-r from-sky-400 to-cyan-300 bg-clip-text text-transparent font-bold">{company}</p>
       </button>
 
       {/* Contenedor animado de la lista de tareas (tasks) */}
