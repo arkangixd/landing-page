@@ -55,7 +55,7 @@ function App() {
       title: "Portafolio Web Profesional",
       description: "Diseño y desarrollo de este sitio web responsive para la presentación del perfil profesional, CV y proyectos personales.",
       tags: ["React", "Tailwind CSS", "Vite", "JSX"],
-      link: "https://github.com/repos?q=owner%3A%40me"
+      link: "https://github.com/arkangixd?tab=repositories"
     },
     {
       title: "Sistema de Control Interno",
