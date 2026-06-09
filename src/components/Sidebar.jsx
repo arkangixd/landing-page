@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoPerfil from '../assets/perfil.jpg';
 
 export default function Sidebar() {
   const skills = ['React', 'PHP', 'CSS', 'Bootstrap', 'JavaScript', 'Soporte Técnico', 'Mantenimiento Industrial'];
@@ -7,9 +8,11 @@ export default function Sidebar() {
     <aside className="md:w-1/3 flex flex-col gap-6">
       {/* Tarjeta de Perfil */}
       <section className="bg-slate-800 p-8 rounded-2xl flex flex-col items-center text-center shadow-lg border border-slate-700/50">
-        <div className="w-32 h-32 bg-slate-700 rounded-full mb-6 border-4 border-sky-500/30 flex items-center justify-center text-4xl text-slate-400 font-bold">
-          AR
-        </div>
+      <img 
+  src={fotoPerfil} 
+  alt="Antonio Hernández" 
+  className="w-40 h-40 mx-auto rounded-full object-cover object-[center_28%] border-4 border-sky-500 shadow-lg mb-2 transition-transform duration-300 hover:scale-105"
+/>
         <h1 className="text-2xl font-bold text-white mb-2 tracking-tight">Antonio R. Hernández P.</h1>
         <p className="text-sky-400 font-medium">Soporte Técnico IT / Help Desk & Desarrollador Web</p>
       </section>
